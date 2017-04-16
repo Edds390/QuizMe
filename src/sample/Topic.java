@@ -13,7 +13,7 @@ public class Topic {
     private String _desc;
     private QuestionList _ql;
 
-    public Topic(List qList, String topicTitle){
+    public Topic(String topicTitle, List qList){
         _desc = topicTitle;
         _ql = createQlist(qList);
     }
